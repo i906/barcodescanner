@@ -1,4 +1,4 @@
-apply plugin: 'android-library'
+apply plugin: 'com.android.library'
 
 ext {
     isLibrary = true
@@ -14,7 +14,15 @@ dependencies {
 }
 
 android {
+    compileSdkVersion 21
+    buildToolsVersion "21.0.2"
+
     defaultConfig {
-        packageName "${project.group}.zbar"
+        minSdkVersion 14
+        targetSdkVersion 21
+    }
+
+    lintOptions {
+        abortOnError false
     }
 }

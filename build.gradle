@@ -4,7 +4,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.9.+'
+        classpath 'com.android.tools.build:gradle:0.14.0'
     }
 }
 
@@ -30,8 +30,8 @@ subprojects {
         ext.pluginContainer = project.getPlugins()
         if(ext.pluginContainer.hasPlugin("android") || ext.pluginContainer.hasPlugin("android-library")) {
             android {
-                compileSdkVersion 19
-                buildToolsVersion '19.0.1'
+                compileSdkVersion 21
+                buildToolsVersion '21.0.2'
 
                 defaultConfig {
                     minSdkVersion 8
