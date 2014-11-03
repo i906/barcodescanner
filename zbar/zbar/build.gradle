@@ -9,7 +9,8 @@ ext {
 }
 
 dependencies {
-    compile 'me.dm7.barcodescanner:core:1.0'
+    //compile project(":core")
+    compile 'me.dm7.barcodescanner:core:1.5'
     compile fileTree(dir: 'libs', include: '*.jar')
 }
 
@@ -20,6 +21,7 @@ android {
     defaultConfig {
         minSdkVersion 14
         targetSdkVersion 21
+        applicationId "${project.group}.zbar"
     }
 
     lintOptions {

@@ -9,11 +9,11 @@ ext {
 }
 
 dependencies {
-    compile ext.supportLibraryDependency
+    compile supportLibraryDependency
 }
 
 android {
     defaultConfig {
-        packageName "${project.group}.core"
+        applicationId "${project.group}.core"
     }
 }

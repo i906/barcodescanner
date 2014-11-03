@@ -17,7 +17,7 @@ Installation
 
 Add the following dependency to your build.gradle file.
 
-compile 'me.dm7.barcodescanner:zxing:1.0'
+compile 'me.dm7.barcodescanner:zxing:1.5'
 
 Simple Usage
 ------------
@@ -110,7 +110,7 @@ Installation
 
 Add the following dependency to your build.gradle file.
 
-compile 'me.dm7.barcodescanner:zbar:1.0'
+compile 'me.dm7.barcodescanner:zbar:1.5'
 
 Simple Usage
 ------------
@@ -207,6 +207,13 @@ Almost all of the code for these library projects is based on:
 1. CameraPreview app from Android SDK APIDemos
 2. The ZXing project: https://github.com/zxing/zxing
 3. The ZBar Android SDK: http://sourceforge.net/projects/zbar/files/AndroidSDK/
+
+Contributors
+============
+
+* [Rking788](https://github.com/Rking788)
+* [furedal](https://github.com/furedal)
+* [Yarikx](https://github.com/Yarikx)
 
 License
 =======
